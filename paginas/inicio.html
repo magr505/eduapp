@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Title</title>
+</head>
+<body>
+<main>
+    <div class="pantalla">
+        <div id="escritorio" name="escritorio">
+            <!--a href="carga.html"><input type="submit" value="click" id="boton" onclick="clickm(onclick)"></a>
+            <button id="boton" onclick="click()">app</button-->
+        </div>
+        <div id="carga">
+            <!--img src="img/h.png" alt="logo_app">
+            <progress id="barra" max="100" value="0"></progress>
+            <meter value="3" min="0" max=10></meter-->
+        </div>
+        <div id="inicio">
+            <a href="../index.html"><img id="salir" src="../img/p.png" alt="salir"></a>
+                <div id="lista1"><a href="juego.html"><img src="../img/puzzle-piece-306426_640.png" alt="logo1"><div
+                         id="juego_label">Juegos</div></a></div>
+                <div id="lista2"><a href="multimedia.html"><img src="../img/Multimedia.png" alt="logo2"><div
+                        id="multimedia_label">Multimedia</div></a></div>
+                <div id="lista3"><a href="matematicas.html"><img src="../img/c.png" alt="logo3"><div
+                        id="matematica_label">Matematicas</div></a></div>
+                <div id="lista4"><a href="lengua.html"><img src="../img/jjj.png" alt="logo4"><div
+                        id="lengua_label">Alfabeto</div></a></div>
+                <div id="botones">
+                    <div id="uno"><a href="info.html"><img src="../img/info-300.png" alt="logobtn1"> </a></div>
+                    <div id="dos"><a href="opciones.html"><img src="../img/options.png" alt="logobtn2"></a></div>
+                    <div id="tres"><img src="../img/R0fc2699ac52bc3370d30a17691b7168d.png" alt="logobtn3"></div>
+                </div>
+        </div>
+    </div>
+</main>
+<script>
+    document.getElementById('botones').style.backgroundColor = "white";
+    /*document.getElementById('uno').style.backgroundColor = "violet";
+    document.getElementById('dos').style.backgroundColor = "violet";
+    document.getElementById('tres').style.backgroundColor = "violet";*/
+    document.getElementById('botones').style.opacity = "90%";
+    document.getElementById('uno').style.webkitBorderRadius = "0 0 79px 79px";
+    document.getElementById('dos').style.webkitBorderRadius = "79px 79px 0 0";
+    document.getElementById('tres').style.webkitBorderRadius = "0 0 79px 79px";
+    document.getElementById('botones').style.margin = "0px";
+    document.getElementById('botones').style.width = "calc(100%)";
+    document.getElementById('botones').style.height = "48px";
+    document.getElementById('botones').style.boxShadow = "none";
+
+    document.getElementById('lista1').style.width = "28%";
+    document.getElementById('lista2').style.width = "28%";
+    document.getElementById('lista3').style.width = "28%";
+    document.getElementById('lista4').style.width = "28%";
+    document.getElementById('juego_label').style.backgroundColor ="yellow";
+    document.getElementById('multimedia_label').style.backgroundColor ="green";
+    document.getElementById('matematica_label').style.backgroundColor ="red";
+    document.getElementById('lengua_label').style.backgroundColor ="blue";
+
+    /*document.getElementById('juego').style.height = "90%";*/
+    /*document.getElementById('lista1').style.background = "yellow";
+    document.getElementById('lista2').style.background = "green";
+    document.getElementById('lista3').style.background = "red";
+    document.getElementById('lista4').style.background = "blue";*/
+
+/*
+    const elemento = document.getElementById('barra');
+    document.getElementById('inicio').style.display = "none";
+    document.getElementById('escritorio').style.display = "block";
+    setInterval(() =>{
+        elemento.value+=1;
+        if (elemento.value === 100){
+            document.getElementById('escritorio').style.display = "none";
+            document.getElementById('carga').style.display = "none";
+            document.getElementById('inicio').style.display = "block";
+            <!--elemento.value = 0;-->
+        }
+    }, 35);*/
+
+</script>
+</body>
+</html>
